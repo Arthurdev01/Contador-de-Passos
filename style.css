@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(116, 116, 214);
+    font:  normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.btn {
+    background-color: rgb(112, 22, 185);
+    color: white;
+    border-radius: 8px;
+    padding: 8px 8px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.3);
+    border: none;
+    transition: 0.2s;
+    cursor: pointer
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
